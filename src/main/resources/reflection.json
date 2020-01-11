@@ -1,0 +1,29 @@
+[
+  {
+    "name" : "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverride", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.actors.CompletesEventually__Proxy", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.actors.Logger__Proxy", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.actors.DirectoryScanner", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.actors.DirectoryScanner__Proxy", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.nativeexample.ping.Ping", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.nativeexample.ping.Ping__Proxy", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.nativeexample.pong.Pong", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  },
+  {
+    "name" : "io.vlingo.nativeexample.pong.Pong__Proxy", "allDeclaredConstructors" : true, "allPublicConstructors" : true, "allDeclaredMethods" : true, "allPublicMethods" : true, "allDeclaredClasses" : true, "allPublicClasses" : true
+  }
+]
