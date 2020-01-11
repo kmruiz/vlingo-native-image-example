@@ -1,16 +1,15 @@
 # Generate fat-jar
-#FROM maven AS maven
-#WORKDIR /home/compiler
-#ADD ./src ./src
-#ADD ./pom.xml ./pom.xml
-#RUN mvn install -Dmaven.test.skip=true
+FROM maven AS maven
+WORKDIR /home/compiler
+ADD ./src ./src
+ADD ./pom.xml ./pom.xml
+RUN mvn install -Dmaven.test.skip=true
 
 # Generate a native-image
 FROM oracle/graalvm-ce:latest AS graalvm
 RUN gu install native-image
-#COPY --from=maven /home/compiler/target/native-image-ping-pong-1.0-SNAPSHOT-jar-with-dependencies.jar ./image.jar
+COPY --from=maven /home/compiler/target/native-image-ping-pong-1.0-SNAPSHOT-jar-with-dependencies.jar ./image.jar
 ADD src/main/resources/reflection.json ./reflection.json
-ADD target/native-image-ping-pong-1.0-SNAPSHOT-jar-with-dependencies.jar ./image.jar
 
 RUN native-image \
     --no-server --no-fallback \
