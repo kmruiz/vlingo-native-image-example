@@ -37,16 +37,10 @@
                         <id>generateProxies</id>
                         <phase>compile</phase>
                         <goals>
-                            <goal>actorProxyGen</goal>
+                            <goal>nativeActorProxyGen</goal>
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <actorProtocols>
-                        <param>io.vlingo.nativeexample.ping.Ping</param>
-                        <param>io.vlingo.nativeexample.pong.Pong</param>
-                    </actorProtocols>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
